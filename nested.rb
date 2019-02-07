@@ -84,7 +84,8 @@ def adding_matz
           :languages => ["C"]
         }
      }
-programmer_hash.select { |k,v| k == :yukihiro_matsumoto }   
+programmer_hash.assoc ::yukihiro_matsumoto.to_h
+#programmer_hash.select { |k,v| k == :yukihiro_matsumoto }   
 end
 
 def changing_alan
