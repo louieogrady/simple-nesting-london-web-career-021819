@@ -84,7 +84,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-find(k1) {k1 => h1[k1]}
+find(k1) {k1 => programmer_hash[k1]}
 #programmer_hash.select { |k,v| k == :yukihiro_matsumoto }   
 end
 
